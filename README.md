@@ -1,5 +1,13 @@
 # SPS-2793-AI-Powered-Hourly-Attendance-Capturing-System
 
+# Skills Required:
+* Python Web Frame Works,
+* AWS DynamoDB,
+* AWS Rekognition,
+* Amazon S3,
+* AWS API Gateway,
+* AWS Lambda
+
 # Project Idea:
 Maintaining attendance is very important in all the institutes for checking the attendance percentage of Students.
 Every institute has its own method in this regard.
