@@ -26,15 +26,3 @@ response = client.detect_custom_labels(
         'Bytes':source_bytes
 
     },
-   
-)
-
-print(response)
-if not len(response['CustomLabels']):
-    print('Animal not identified')
-
-else:
-    str=response['CustomLabels'][0]['Name']
-    url="https://ed51qlefub.execute-api.us-east-1.amazonaws.com/Sample?animal="+str
-    resp = requests.get(url)
-    print(resp)
